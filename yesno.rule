@@ -1,0 +1,12 @@
+
+TopRule = $* ($factory:yes_no) {binary = yes_no._nl} | $affirmative {binary='yes'} | $negative {binary='no'}$*;
+
+
+affirmative = affirmative | ok | okay | alright | (all right) | right | righto | (of course) | indeed | naturally |
+roger | (you know it) | (damn straight) | (darn tootin) | (okey-dokey) | (okey-doke) | (good to go) | (make it so) |
+engage | correct | check | indubatibly | agree | agreed | uh-huh | aye | (aye aye) | (by all means) | totally |
+amen | (very well) | (10 4) | (thumbs up) | (go for it) | (sounds good) | obviously | (why not);
+
+
+negative = negative | (uh uh) | nah | nix | nay | (fat chance) | veto | (thumbs down) | (out of the question) |
+(another time) | (raincheck) | (too busy) | (have another commitment) | regrets | (if only);
