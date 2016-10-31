@@ -1,5 +1,7 @@
 # Public Custom Speech Rules
 
-This is a place where developers can download and collaborate on custom speech rules
+This is a place where developers from teh Jibo community can download and collaborate on custom speech rules
 
-# YesNo.rule
+### YesNo.rule
+
+Thank you DevMiser for the initial suggestion
