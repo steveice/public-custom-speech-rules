@@ -7,5 +7,5 @@ We've initially started with the YesNo.rule which is an extension from the facto
 ---
 
 #Rules added
-### YesNo.rule
-
+## YesNo.rule
+Simple extension to YesNo factory rule.
