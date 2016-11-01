@@ -1,3 +1,8 @@
+# Returns:
+# "NLParse": {
+#   "binary": "yes"
+# },
+#
 
 TopRule = $* ($factory:yes_no) {binary = yes_no._nl} | $affirmative {binary='yes'} | $negative {binary='no'}$*;
 
@@ -10,3 +15,7 @@ amen | (very well) | (10 4) | (thumbs up) | (go for it) | (sounds good) | obviou
 
 negative = negative | (uh uh) | nah | nix | nay | (fat chance) | veto | (thumbs down) | (out of the question) |
 (another time) | (raincheck) | (too busy) | (have another commitment) | regrets | (if only);
+
+
+# Change Log
+# Version 1.16.11 - Initially suggested by DevMiser on the forum
